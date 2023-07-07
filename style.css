@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation ber section start here */
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fecd1a;
+    height: 60px;
+}
+
+.main-logo{
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-list{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.menu-item{
+    list-style: none;
+    margin-right: 30px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover{
+    color: #00d084;
+}
