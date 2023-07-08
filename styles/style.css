@@ -56,7 +56,7 @@ nav a{
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-   padding-top: 40px;
+    padding-top: 40px;
 }
 
 .banner{
@@ -94,10 +94,9 @@ nav a{
 
 main{
     max-width: 1140px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto; */ */
 }
 
 .about{
@@ -107,14 +106,14 @@ main{
     margin: 130px 0;
 }
 
-.section-title{
+.about-title{
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
 
-.section-description{
+.about-description{
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -125,7 +124,7 @@ main{
 
 .about-info-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
 }
@@ -148,3 +147,26 @@ main{
     line-height: 30px; 
 }
 
+/* what i do section start here */
+
+.do-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.do-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
