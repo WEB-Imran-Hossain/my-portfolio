@@ -13,7 +13,7 @@
     font-size: 20px;
     font-weight: 700;
     padding: 15px 30px;
-
+    margin-right: 5px;
 }
 
 /* Navigation ber section start here */
@@ -21,7 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 50px 200px;
 }
 
 .nav-title{
@@ -53,9 +53,9 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
     padding-top: 40px;
 }
 
@@ -70,6 +70,7 @@ nav a{
     width: 500px;
     height: 600px;
 }
+
 .banner-greeting{
     font-size: 45px;
     color: #474747;
@@ -96,7 +97,7 @@ main{
     max-width: 1140px;
     justify-content: center;
     align-items: center;
-    margin: 0 auto; */ */
+    margin: 0 auto;
 }
 
 main section{
@@ -295,18 +296,16 @@ footer{
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
-    color:#757575;
     font-size: 16px;
     font-weight: 400;
     border-radius: 5px;
-    background: #FFF;
     border: none;
 }
 .contact{
     margin-top: 28px;
 }
 
-.meassage-text{
+.message-text{
     width: 440px;
     height: 180px;
 }
@@ -314,3 +313,11 @@ footer{
 .text-name{
     width: 440px;
 }
+
+.form-button{
+    background-color: #FD6E0A;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
