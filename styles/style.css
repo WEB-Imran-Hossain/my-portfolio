@@ -254,3 +254,14 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer style here */
+
+footer{
+    background: #FFF8F3;
+    display: flex;
+    padding:130px 230px;
+    margin-top: 130px;
+    justify-content: center;
+    gap: 117px;
+}
